@@ -1,0 +1,9 @@
+﻿Phần 1. Phân tích (Yêu cầu Chức năng vs Phi chức năng)
+* Yêu cầu chức năng (Functional): Các tính năng cốt lõi phục vụ nghiệp vụ khám chữa bệnh (ví dụ: đăng ký khám, kê đơn thuốc, tra cứu lịch sử khám, quản lý thông tin bệnh nhân).
+* Yêu cầu phi chức năng (Non-functional): Các tiêu chuẩn về bảo mật và vận hành hệ thống (ví dụ: mã hóa dữ liệu bệnh án, phân quyền truy cập nghiêm ngặt, sao lưu tự động định kỳ, tốc độ phản hồi dưới 2 giây).
+Phần 2. Triển khai (Bẫy dữ liệu Excel - Ô trống)
+* Cách xử lý ô trống để AutoFilter không bị ngắt quãng:
+   1. Chọn toàn bộ vùng dữ liệu (Data Range) trước khi bật bộ lọc, thay vì chỉ chọn một ô đơn lẻ.
+   2. Điền giá trị mặc định cho các ô trống quan trọng (ví dụ: điền "Chưa cập nhật" hoặc "N/A") hoặc đảm bảo cột khóa chính (ID, STT) không có ô nào bị trống để bộ lọc nhận diện chính xác toàn bộ bảng.
+Phần 3. Kiểm thử (Khắc phục lỗi Heading Styles)
+* Cách dùng Ctrl + Shift + N: Phím tắt này dùng để đưa đoạn văn bản bị gán nhầm tiêu đề về định dạng mặc định ban đầu (Normal Style), giúp loại bỏ thuộc tính Heading sai lệch.
